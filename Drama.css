@@ -1,0 +1,229 @@
+.Drama{
+  height: calc(155vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(5, 5, 5, 0.5),
+    rgba(5, 5, 5, 0.5)
+    ),
+    url("../../images/images/pexels-cottonbro-5435551.jpg");
+  background-size: cover;;
+}
+.DramaTitle {
+  color:rgb(245, 243, 238);
+  font-size: 25px;
+  margin-right: 980px;
+  margin-bottom: 15px;
+  margin-top: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scrollCnner {
+  display: flex;
+  align-items: center;
+}
+
+
+.scroolView {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1200px;
+  align-items: center;
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+
+.scroolView::-webkit-scrollbar {
+  background: transparent;
+}
+
+
+.scroolItem {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.scroolItem:hover{
+  transform: scale(1.02);
+  }
+
+.scroolItem img {
+  width: 180px;
+  height: 125px;
+  box-shadow: 0 0 4px rgb(233, 109, 7);
+  transition: box-shadow 0.5s ease;
+  border-radius: 10px;
+}
+.Horizntaal {
+  color: rgb(238, 233, 228);
+  font-size: 13px;
+}
+.iinfoBotton{
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: rgb(170, 9, 9);
+  border: none;
+  color:rgb(255, 254, 246);
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0 0 4px rgb(248, 246, 246);
+  width: 100px;
+  align-self: center;
+  margin-right: 770px;
+}
+.pllaay{
+  color:rgb(170,9,9);
+  font-size:40px;
+  background-color:white;
+  border-radius:50px;
+  cursor: pointer;
+}
+.plluus{
+  color:rgb(170,9,9);
+  font-size:40px;
+  margin-left:20px;
+  background-color:white;
+  border-radius:50px;
+  cursor: pointer;
+}
+.Tiittle{
+  color:rgb(245, 243, 238);
+  font-size: 25px;
+  margin-right: 950px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.baannd{
+  color:rgb(245, 243, 238);
+  font-size: 25px;
+  margin-right: 960px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Dramatic{
+  height: calc(70vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.maanaage{
+  color: beige;
+  margin-left: -740px;
+}
+.viieew{
+  color: beige;
+  list-style-type: none;
+  margin-left: -765px;
+}
+.tCoontainer{
+  height: 50vh;
+  padding-top: -20px;
+  width: 650px;
+  text-align: left;
+  margin-right: 600px;
+  background: transparent;
+}
+.rCoontainer{
+  width: 700px;
+  text-align: left;
+  margin-bottom: 70px;
+  margin-top: -300px;
+  padding-left: 500px;
+}
+.iTiitle{
+  color: #cb9060!important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 9px;
+}
+.rTiitle{
+  color: #cb9060!important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+}
+.daaataa{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.Caaasting{
+  width: 170px;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+
+}
+.videoPlay{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.allert {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: absolute;
+  width: 1365px;
+  height: 450px;
+  margin-top: 10px;
+  backdrop-filter: blur(3px);
+}
+
+.allertItems {
+  border: 1px solid #797d7a!important;
+  margin-top: 120px;
+  width: 400px;
+  background-color: black;
+  margin-left: 500px;
+  border-radius: 15px;
+  height: 160px;
+}
+
+.allertText {
+  font-size: x-large;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 35px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.allertBtn {
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(170, 9, 9);
+  color:white;
+  border-radius: 30px;
+  width: 80px;
+  align-self: center;
+  height: 40px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.allertBtn1 {
+  margin-left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: rgb(170, 9, 9);
+  color:white;
+  border-radius: 30px;
+  width: 110px;
+  align-self: center;
+  height: 40px;
+  font-weight: 600;
+  font-size: large;
+}
+

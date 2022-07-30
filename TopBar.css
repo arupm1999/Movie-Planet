@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link{
+  display: inline-block;
+  padding-bottom: 0.50rem;
+  position: relative;
+}
+.link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(185, 61, 61);
+  transition: width 0.25s ease-out;
+}
+.link:hover::before {
+  width: 100%;
+}
+.link:not(.is-active):hover::before {
+  opacity: 1;
+  bottom: 0;
+}
+.top{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+ }
+.topLeft{
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topRight{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center   ;
+}
+.topList{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.link{
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topSearchIcon{
+  font-size: 18px;
+  color:black;
+  cursor: pointer;
+  margin-right: 50px;
+  color: white;
+}
+.mobile-menu-icon {
+  align-items: center;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgb(177, 116, 4);
+  background-color: aqua;
+  background: transparent;
+  color:beige;
+  
+}
+.topListI{
+  width:300px;
+  height: 50px;
+  display: flex;
+  margin-bottom: -30px;
+  margin-left: -20px;
+  margin-top: -20px;
+  
+}
